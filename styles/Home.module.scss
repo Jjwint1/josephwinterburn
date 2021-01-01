@@ -1,0 +1,131 @@
+$img-width: 50vw;
+$img-height: $img-width;
+
+$dark-blue: #110058;
+
+.header {
+  padding-top: 30px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_container {
+  height: $img-height;
+  width: $img-width;
+  border-radius: 50%;
+  background: #FFFDF9;
+  box-shadow:  15px 15px 30px #807f7d,
+             -15px -15px 30px #ffffff;
+}
+
+.header img {
+  width: $img-width;
+  height: $img-height;
+}
+
+.name {
+  margin-top: 50px;
+  color: $dark-blue;
+  font-size: 8vw;
+  text-shadow: 0px 3px 6px rgba(#080046, 0.3);
+}
+
+.bio {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+}
+
+.technologies {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.logo {
+  margin: 10px auto;
+  width: 25vw;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  opacity: 0.6;
+}
+
+.logo:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  $img-width: 30vw;
+  $img-height: 30vw;
+
+  .header {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .img_container {
+    height: $img-height;
+    width: $img-width;
+    border-radius: 50%;
+    background: #FFFDF9;
+    box-shadow:  15px 15px 30px #807f7d,
+               -15px -15px 30px #ffffff;
+  }
+  
+  .header img {
+    width: $img-width;
+    height: $img-height;
+  }
+
+  .bio {
+    padding-top: 80px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8rem;
+  }
+
+  .technologies {
+    padding-top: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+  }
+
+  .logo {
+    margin: 10px auto;
+    width: 100px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.6;
+  }
+  
+  .logo:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: 1
+  }
+
+}
