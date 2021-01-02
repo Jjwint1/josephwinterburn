@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className={styles.bio}>
-        I'm an Astrophysics student at the University of Cambridge, with an interest in web development and UI design. I build small, personal web and mobile apps using Next.js and React Native respectively. I have also played around with building REST APIs for the backend of some apps.
+        I'm an Astrophysics student at the University of Cambridge, with an interest in web development and UI design. I build small, personal web and mobile apps using Next.js and React Native respectively. I have also experimented with building REST APIs for the backend of some apps.
         <br/>
         <br/>
         Here are some of the technologies, languages &amp; frameworks that I use:
