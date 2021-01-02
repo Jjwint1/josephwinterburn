@@ -1,0 +1,9 @@
+$dark-blue: #110058;
+
+.bar {
+    height: 5px;
+    background-color: $dark-blue;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #666564,
+    -1px -1px 5px #ffffff;
+}

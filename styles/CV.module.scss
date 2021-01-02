@@ -4,9 +4,43 @@ $dark-blue: #110058;
     text-align: center;
     padding-top: 30px;
     margin: 0 20px;
+    display: block;
 }
 
 .instruction_desktop {
     text-align: center;
     display: none;
+}
+
+.download {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 20px;
+}
+
+.download a {
+    color: $dark-blue;
+    opacity: 0.7;
+}
+
+.download a:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+@media screen and (min-width: 630px) {
+    .instruction_mobile {
+        display: none;
+    }
+
+    .instruction_desktop {
+        display: block;
+        padding-left: 40px;
+        font-size: 25px;
+    }
+    
+    .download {
+        padding-left: 40px;
+        font-size: 25px;
+    }
 }

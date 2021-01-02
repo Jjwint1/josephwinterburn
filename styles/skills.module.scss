@@ -1,0 +1,35 @@
+
+.skills_container {
+    width: 100vw;
+}
+
+.skills_list {
+    padding: 10px 40px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    li {
+        padding: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 630px) {
+
+    .skills_container {
+        width: 80vw;
+        margin: 0 auto;
+        padding: 40px 80px;
+        height: 70vh;
+        overflow: scroll;
+    }
+
+    .skills_list {
+        width: 70vw;
+    }
+}

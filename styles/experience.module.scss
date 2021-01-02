@@ -1,0 +1,60 @@
+$dark-blue: #110058;
+
+.experience_container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 10px 0px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 5vw;
+    letter-spacing: 0.1rem;
+}
+
+.title span {
+    color: $dark-blue;
+}
+
+.dates {
+    font-size: 4vw;
+}
+
+.content {
+    font-size: 4.5vw;
+    line-height: 1.4rem;
+}
+
+@media screen and (min-width: 630px) {
+
+    .experience_container {
+        width: 80vw;
+        margin: 0 auto;
+        padding: 40px 80px;
+        height: 70vh;
+        overflow: scroll;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 0.1rem;
+    }
+
+    .title span {
+        color: $dark-blue;
+    }
+
+    .dates {
+        font-size: 16px;
+    }
+
+    .content {
+        font-size: 18px;
+        line-height: 1.4rem;
+    }
+}
