@@ -48,9 +48,11 @@
     li {
         font-size: 20px;
         padding: 10px 5px;
+    }
+    li a {
         opacity: 0.6;
     }
-    li:hover {
+    li a:hover {
         opacity: 1;
         cursor: pointer;
     }
@@ -58,6 +60,6 @@
 
 @media screen and (min-width: 630px) {
     .nav_container {
-        width: 300px;
+        width: 250px;
     }
 }

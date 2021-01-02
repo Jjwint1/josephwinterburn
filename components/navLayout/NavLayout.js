@@ -99,9 +99,9 @@ export default class NavLayout extends React.Component {
                 }}
                 >
                     <ul className={styles.nav_list}>
-                        <li onClick={this.toggleMenu}><Link href='/'>Home</Link></li>
-                        <li onClick={this.toggleMenu}><Link href='/CV/'>CV</Link></li>
-                        <li onClick={this.toggleMenu}><Link href='/contact'>Contact</Link></li>
+                        <li><Link href='/'><a onClick={this.toggleMenu}>Home</a></Link></li>
+                        <li><Link href='/CV/'><a onClick={this.toggleMenu}>CV</a></Link></li>
+                        <li><Link href='/contact'><a onClick={this.toggleMenu}>Contact</a></Link></li>
                     </ul>
 
                 </motion.div>
